@@ -6,6 +6,7 @@
     <title>Zmotos Index</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
@@ -47,23 +48,23 @@
     <main>
         <section class="container-fluid fondoContenedorPrincipal">
             <div class="row px-2 py-2">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6"data-aos="fade-right" data-aos-duration="2000" data-aos-offset="50">
                     <img class="imagenGrande img-fluid" src="./assets/img/biker-407123_1280.jpg" alt="imagenUno">
                 </div>
-                <div class="col-12 col-lg-6 justify-content-center d-flex">
-                    <h1 class="d-flex m-auto tituloUno">Cruza el Umbral de la Aventura: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Encuentra tu Esencia Sobre Dos Ruedas</h1>
+                <div class="col-12 col-lg-6 justify-content-center d-flex" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="50">
+                    <h1 class="d-flex m-auto titulo">Cruza el Umbral de la Aventura: <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Encuentra tu Esencia Sobre Dos Ruedas</h1>
                 </div>
             </div>
         </section>
         <section class="container-fluid fondoContenedorSecundario">
             <div class="row px-2 py-2">
                 <div class="col-12 col-lg-6 text-center m-auto">
-                    <h2 class="tituloDos" >Te contamos un poco mas sobre nosotros</h2>
+                    <h2 class="titulo" data-aos="fade-right" data-aos-duration="2000" data-aos-offset="50" >Te contamos un poco mas sobre nosotros</h2>
                     <a href="./pages/nosotros.html">
-                        <button class="button">Informacion</button>
+                        <button class="button" data-aos="flip-left"data-aos-duration="2000" data-aos-offset="50" >Informacion</button>
                     </a>
                 </div>
-                 <div class="col-12 col-lg-6">
+                 <div class="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000" data-aos-offset="50">
                     <img  class="imagenGrande img-fluid" src="./assets/img/dirt-bike-330815_1280.jpg" alt="bannerNosotros">
                 </div>
 
@@ -76,10 +77,10 @@
         <section class="container-fluid  fondoContenedorTerceario">
             <div class="row px-2 py-2">
                 <div class="col-12 col-lg-12 text-center">
-                    <h1 class="tituloUno bordeTitulo">CATÁLOGO DE MOTOS</h1>
-                    <h2 class="tituloUno">ESTAS SON TODAS LAS MARCAS DE MOTOS QUE COMERCIALIZAMOS​.</h2>
+                    <h1 class="titulo bordeTitulo"  data-aos="fade-right" data-aos-duration="2000" data-aos-offset="50">CATÁLOGO DE MOTOS</h1>
+                    <h2 class="titulo"data-aos="fade-left" data-aos-duration="2000" data-aos-offset="50">ESTAS SON TODAS LAS MARCAS DE MOTOS QUE COMERCIALIZAMOS​.</h2>
                 </div>
-                <div class="col-12 col-lg-12 d-flex justify-content-center bordesMarcas m-auto">
+                <div class="col-12 col-lg-12 d-flex justify-content-center bordesMarcas m-auto" data-aos="flip-up" data-aos-duration="2000" data-aos-offset="50">
                     <a class="m-auto"  href="./pages/bajaj.html">
                         <img   src="./assets/img/logoBajaj.png" alt="logoBajaj">
                     </a>   
@@ -117,5 +118,10 @@
         </section>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+.tamanioContenedor{
+    height: 1000px;
+}
+.tamanioParrafo{
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    border-bottom: 10px solid rgb(0, 0, 0);
+    line-height: 5.8rem;
+    font-family: $fuente-secundaria;
+}
+.bordeTitulo{
+    border-bottom:black ridge 3px;
+}
+
+.bordeInferior{
+    padding-bottom: 60px;
+    border-bottom: 10px solid rgb(0, 0, 0);
+}

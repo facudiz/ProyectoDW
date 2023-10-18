@@ -1,0 +1,47 @@
+
+.fondoContenedorSecundario{
+    background: $color-primario ;
+    padding: 0;
+    overflow: hidden;
+    .button{
+        margin-top: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: rgba(0, 0, 0, 0);
+        color: rgb(0, 0, 0);
+        width: auto;
+        align-items: center;
+        height: 48px;
+        border: solid 1px;
+        border-radius: map-get($border-Radio, ocho);
+        font-weight: 700;
+        box-shadow: 3px 5px 10px #000;
+        transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+        &:hover {
+            
+            background-color: black;
+            color: white;
+            height: 48px;
+            border-radius: map-get($border-Radio, ocho);
+            border: solid 1px;
+            transform: scale(1.5);
+            transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+            
+        }
+        
+    }
+}
+.fondoContenedorTerceario{
+    background:$color-secundario  ;
+    padding: 40px;
+    overflow: hidden;
+    .bordesMarcas{
+        border-radius: map-get($border-Radio, veinte);
+        height: 700px;
+        border: #b3b1b1 solid 1px;
+        width: 80%;
+        box-shadow: 3px 5px 10px #000;
+        
+    }
+    
+}

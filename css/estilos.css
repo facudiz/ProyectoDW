@@ -1,3 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.fondoContenedorPrincipal {
+  background: #ffffff;
+  padding: 0;
+  overflow: hidden;
+}
+.fondoContenedorPrincipal .imagenGrande {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.titulo {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+
+.bordeMotos {
+  border: black solid 1px;
+}
+
+.bordeFormulario {
+  border-radius: 20px;
+  height: 400px;
+  border: #b3b1b1 solid 1px;
+  box-shadow: 3px 5px 10px #000;
+  background-color: rgba(252, 92, 0, 0.5882352941);
+}
+
+.fondoContenedorSecundario {
+  background: rgba(252, 92, 0, 0.5882352941);
+  padding: 0;
+  overflow: hidden;
+}
+.fondoContenedorSecundario .button {
+  margin-top: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0);
+  width: auto;
+  align-items: center;
+  height: 48px;
+  border: solid 1px;
+  border-radius: 8px;
+  font-weight: 700;
+  box-shadow: 3px 5px 10px #000;
+  transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+}
+.fondoContenedorSecundario .button:hover {
+  background-color: black;
+  color: white;
+  height: 48px;
+  border-radius: 8px;
+  border: solid 1px;
+  transform: scale(1.5);
+  transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+}
+
+.fondoContenedorTerceario {
+  background: #ffffff;
+  padding: 40px;
+  overflow: hidden;
+}
+.fondoContenedorTerceario .bordesMarcas {
+  border-radius: 20px;
+  height: 700px;
+  border: #b3b1b1 solid 1px;
+  width: 80%;
+  box-shadow: 3px 5px 10px #000;
+}
+
+.fondoHeader {
+  background: rgba(252, 92, 0, 0.5882352941);
+  overflow: hidden;
+}
+.fondoHeader .tamanioFuente {
+  color: rgb(97, 97, 97);
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.fondoHeader .tamanioFuente .navEfecto:hover {
+  transition: 500ms;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.836);
+  border-radius: 10px;
+}
+.fondoHeader .logo a h2 {
+  font-size: 35px;
+  display: flex;
+  color: rgb(0, 0, 0);
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.fondoHeader .logo a img {
+  height: 80px;
+  margin-right: 40px;
+}
+
+.fondoFooter {
+  background: rgba(252, 92, 0, 0.5882352941);
+  padding-top: 0;
+  overflow: hidden;
+}
+
+.tamanioContenedor {
+  height: 1000px;
+}
+
+.tamanioParrafo {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  border-bottom: 10px solid rgb(0, 0, 0);
+  line-height: 5.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.bordeTitulo {
+  border-bottom: black ridge 3px;
+}
+
+.bordeInferior {
+  padding-bottom: 60px;
+  border-bottom: 10px solid rgb(0, 0, 0);
+}
 
 /*# sourceMappingURL=estilos.css.map */
