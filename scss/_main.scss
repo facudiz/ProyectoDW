@@ -1,14 +1,24 @@
 
+.fondoContenedorPrincipal{
+    background:$color-primario;
+    padding: 0;
+    overflow: hidden;    
+    .imagenGrande {
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+}
 .fondoContenedorSecundario{
-    background: $color-primario ;
+    background: $color-secundario ;
     padding: 0;
     overflow: hidden;
     .button{
+        color: $color-primario;
         margin-top: 25px;
         padding-left: 30px;
         padding-right: 30px;
         background-color: rgba(0, 0, 0, 0);
-        color: rgb(0, 0, 0);
         width: auto;
         align-items: center;
         height: 48px;
@@ -31,8 +41,9 @@
         
     }
 }
+
 .fondoContenedorTerceario{
-    background:$color-secundario  ;
+    background:$color-primario  ;
     padding: 40px;
     overflow: hidden;
     .bordesMarcas{

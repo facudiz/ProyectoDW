@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.fondoContenedorPrincipal{
+.fondoContenedorPrincipalNosotros{
     background:$color-secundario;
     padding: 0;
     overflow: hidden;    
@@ -14,7 +14,15 @@
     }
 }
 .titulo{
-    color: rgb(0, 0, 0);
+    color: $color-primario;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+.titulo2{
+    color: $color-secundario;
     font-weight: 600;
     background: rgba(255, 255, 255, 0);
     border-radius: 10px;
@@ -32,5 +40,10 @@
     height: 400px;
     border: #b3b1b1 solid 1px;
     box-shadow: 3px 5px 10px #000;
+    background-color: $color-secundario;
+}
+
+.imagenGrandeError{
     background-color: $color-primario;
+
 }

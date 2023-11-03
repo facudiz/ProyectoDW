@@ -6,19 +6,28 @@
   box-sizing: border-box;
 }
 
-.fondoContenedorPrincipal {
+.fondoContenedorPrincipalNosotros {
   background: #ffffff;
   padding: 0;
   overflow: hidden;
 }
-.fondoContenedorPrincipal .imagenGrande {
+.fondoContenedorPrincipalNosotros .imagenGrande {
   width: 100%;
   border-radius: 20px;
   margin-bottom: 20px;
 }
 
 .titulo {
-  color: rgb(0, 0, 0);
+  color: #000000;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 10px;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+}
+
+.titulo2 {
+  color: #ffffff;
   font-weight: 600;
   background: rgba(255, 255, 255, 0);
   border-radius: 10px;
@@ -35,20 +44,35 @@
   height: 400px;
   border: #b3b1b1 solid 1px;
   box-shadow: 3px 5px 10px #000;
-  background-color: rgba(252, 92, 0, 0.5882352941);
+  background-color: #ffffff;
+}
+
+.imagenGrandeError {
+  background-color: #000000;
+}
+
+.fondoContenedorPrincipal {
+  background: #000000;
+  padding: 0;
+  overflow: hidden;
+}
+.fondoContenedorPrincipal .imagenGrande {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 20px;
 }
 
 .fondoContenedorSecundario {
-  background: rgba(252, 92, 0, 0.5882352941);
+  background: #ffffff;
   padding: 0;
   overflow: hidden;
 }
 .fondoContenedorSecundario .button {
+  color: #000000;
   margin-top: 25px;
   padding-left: 30px;
   padding-right: 30px;
   background-color: rgba(0, 0, 0, 0);
-  color: rgb(0, 0, 0);
   width: auto;
   align-items: center;
   height: 48px;
@@ -69,7 +93,7 @@
 }
 
 .fondoContenedorTerceario {
-  background: #ffffff;
+  background: #000000;
   padding: 40px;
   overflow: hidden;
 }
@@ -82,28 +106,28 @@
 }
 
 .fondoHeader {
-  background: rgba(252, 92, 0, 0.5882352941);
+  background: #ffffff;
   overflow: hidden;
+  border-bottom: rgb(4, 8, 255) ridge 3px;
 }
 .fondoHeader .tamanioFuente {
-  color: rgb(97, 97, 97);
   font-weight: 600;
-  background: rgba(255, 255, 255, 0);
+  background: #ffffff;
   border-radius: 10px;
   font-size: 25px;
   font-family: "Poppins", sans-serif;
 }
 .fondoHeader .tamanioFuente .navEfecto:hover {
   transition: 500ms;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: 400;
-  background: rgba(0, 0, 0, 0.836);
+  background: rgba(255, 255, 255, 0.836);
   border-radius: 10px;
 }
 .fondoHeader .logo a h2 {
   font-size: 35px;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   margin-left: 10px;
@@ -114,9 +138,10 @@
 }
 
 .fondoFooter {
-  background: rgba(252, 92, 0, 0.5882352941);
+  background: #ffffff;
   padding-top: 0;
   overflow: hidden;
+  border-top: rgb(4, 8, 255) ridge 3px;
 }
 
 .tamanioContenedor {
@@ -138,6 +163,4 @@
 .bordeInferior {
   padding-bottom: 60px;
   border-bottom: 10px solid rgb(0, 0, 0);
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

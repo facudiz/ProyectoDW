@@ -1,18 +1,18 @@
 .fondoHeader{
-    background:$color-primario ;
+    background:$color-secundario ;
     overflow: hidden;
+    border-bottom: rgb(4, 8, 255) ridge 3px;;
     .tamanioFuente{
-        color: rgb(97, 97, 97);
         font-weight: 600;
-        background: rgba(255, 255, 255, 0);
+        background:$color-secundario;
         border-radius: map-get($border-Radio, diez);
         font-size: 25px;
         font-family: $fuente-secundaria;
             .navEfecto:hover{
                 transition: 500ms;
-                color: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
                 font-weight: 400;
-                background: rgba(0, 0, 0, 0.836);
+                background: rgba(255, 255, 255, 0.836);
                 border-radius: map-get($border-Radio, diez);
             
                 
@@ -22,7 +22,7 @@
         h2{
             font-size: 35px;
             display: flex;
-            color: rgb(0, 0, 0);
+            color: $color-primario;
             font-family: $fuente-primaria;
             font-weight: 600;
             margin-left: 10px;
